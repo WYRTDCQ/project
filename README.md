@@ -8,6 +8,7 @@ chess 爱恩斯坦棋智能
 misfet  排课系统
 
 canvas php校园网课系统
+train.py pytorch读取图片 彩色图转灰度图 cv2
 
 
 
