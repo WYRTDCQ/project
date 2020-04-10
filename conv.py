@@ -18,9 +18,9 @@ k = np.array([[-1, -1, -1],
 def convolution(k, data):
     n,m = data.shape
     img_new = []
-    for i in range(n-3):
+    for i in range(n-2):
         line = []
-        for j in range(m-3):
+        for j in range(m-2):
             a = data[i:i+3,j:j+3]
             line.append(np.sum(np.multiply(k, a)))
         img_new.append(line)
